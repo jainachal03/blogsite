@@ -4,7 +4,6 @@ import HeaderStyle from "./header.module.css"
 import Image from "../assets/jee.png"
 // import { FaBars } from "react-icons/fa"
 const Header = () => {
-  console.log(window.location.pathname)
   return (
     <header>
       <nav>
