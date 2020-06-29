@@ -1,0 +1,129 @@
+.topnavbar {
+    /* display: flex; */
+
+    /* z-index: 5; */
+
+
+    background-color: white;
+    height: 80px;
+    box-shadow: 1px 0px 7px 5px #A9A9A9;
+    height: 50px;
+    /* -moz-box-shadow: inset 0 0 10px #000000; */
+    margin-bottom: 30px;
+    width: 100%;
+    position: fixed;
+    /* display: block; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    left: 0px;
+
+
+}
+
+span {
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+.link {
+    text-decoration: none;
+    margin: 0px;
+
+}
+
+.list {
+    list-style-type: none;
+    text-decoration: none;
+    margin-right: 30px;
+
+}
+
+.fora {
+    color: black;
+    text-decoration: none;
+
+}
+
+.fora:active {
+    color: silver;
+    text-decoration: none;
+}
+
+.fora:hover {
+
+    border-bottom: solid purple 2px;
+    /* transition: all 0.1s ease-in-out; */
+
+
+}
+
+/* .fora:before {
+    width: 100%;
+    height: 2px;
+    background-color: purple;
+    visibility: hidden;
+    transform: scaleX(0);
+
+}
+
+.fora:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
+} */
+
+
+
+
+
+
+.bars {
+    size: 60px;
+    margin-right: 25px;
+    display: none;
+}
+
+.image {
+    height: 60px;
+
+
+}
+
+@media(max-width:600px) {
+    .image {
+        height: 50px;
+    }
+
+    .bars {
+        display: block;
+    }
+
+}
+
+.activeLink {
+    color: silver;
+    text-decoration: none;
+}
+
+.listdiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: space-between;
+    margin: 10px;
+    min-width: 300px;
+
+
+    /* minidth: 300, */
+}
+
+@media(max-width:600px) {
+    .listdiv {
+        display: none;
+    }
+}

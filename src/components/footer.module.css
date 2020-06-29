@@ -1,0 +1,13 @@
+.lst {
+    max-width: 800px;
+    margin-top: 50px;
+    border-top: solid 2px grey;
+}
+
+.p {
+    font-size: large;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+}
