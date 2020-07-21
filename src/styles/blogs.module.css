@@ -1,0 +1,22 @@
+.coming {
+    padding-top: 60px;
+    font-size: 44px;
+    color: grey;
+}
+.bars {
+    size: 60px;
+    margin-right: 25px;
+    display: flex;
+    visibility: hidden;
+    z-index: 2;
+    position: fixed;
+    top: 15px;
+    right: 10px;
+
+}
+
+@media(max-width:600px) {
+    .bars {
+        visibility: visible;
+    }
+}

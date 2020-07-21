@@ -5,9 +5,15 @@ import "./click.css"
 
 const Click = () => (
   <div className="click">
-    <Link to="/">HOME</Link>
-    <Link to="/">ABOUT</Link>
-    <Link to="/">BLOGS</Link>
+    <Link to="/" className="links">
+      HOME
+    </Link>
+    <Link to="/about" className="links">
+      ABOUT
+    </Link>
+    <Link to="/blogs" className="links">
+      BLOGS
+    </Link>
   </div>
 )
 

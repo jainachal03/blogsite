@@ -1,0 +1,38 @@
+.container {
+    margin: auto;
+    padding: 10px;
+}
+
+.minephoto {
+    width: 60%;
+    height: 50%;
+    display: block;
+    margin-top: 40px;
+    border-radius: 60%;
+}
+
+.whoami {
+    padding-top: 50px;
+}
+
+.second {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.bars {
+    size: 60px;
+    margin-right: 25px;
+    display: flex;
+    visibility: hidden;
+    z-index: 2;
+    position: fixed;
+    top: 15px;
+    right: 10px;
+
+}
+
+@media(max-width:600px) {
+    .bars {
+        visibility: visible;
+    }
+}

@@ -1,8 +1,9 @@
 import React, { useState } from "react"
 import Layout from "../components/Layout"
 import MainStyles from "../styles/index.module.css"
-import Image from "../assets/poster.jpg"
+import Image from "../assets/My Post.png"
 //import Figure from "../assets/figure.png"
+import Figure from "../assets/Finalimage.png"
 import bdata from "../assets/bdata.png"
 import { FaCentercode } from "react-icons/fa"
 import Click from "../components/click"
@@ -30,133 +31,100 @@ export default function Home() {
       <h3 className={MainStyles.subheading}> BY ACHAL JAIN</h3>
       <img src={Image} className={MainStyles.image}></img>
       <article className={MainStyles.article}>
+        If you are a JEE aspirant then there is one thing which you must have
+        heard-<b>JEE</b> is not easy. It takes hours and hours of preparation
+        and complete focus on only and only one thing - studying math and
+        science. Now before anything, I want to put against this mentality since
+        I was too a product of this train of thougts. I know what it does it
+        feel like to continuosly not get the desired rank in the coaching tests
+        and the feeling when you get when you are not able to understand
+        something but your friend or <b>topper</b> breeze through it. This
+        article is a mix of both my experiences and somethings which can be
+        beneficial to anyone. Moreover I am not going too bore you or write down
+        the books which are must and stuff like that, I seriousy think it's
+        waste of time.
+        On a more serious note, the number of students who fill JEE Mains form is over 9 Lakh.
+        The number of seats in all the IIT's combined is less than 14,000.Let that sink.
+    
+        <p> </p>
         <p>
-          Everyone want's a good rank in JEE.But it is a fact that it is not a
-          child's play.
+          The first thing which I feel that is wrong with aspirants is that the
+          aspirants forget why are they even preparing for IIT's. If it is
+          because that once you pass out from IIT you are gonna make loads and
+          loads of money, please don't. Seriously don't, it is just wrong. If
+          you think that IIT's mean you mean establishing your
+          intelligence.Please don't. You don't need to slog day in and day out.
+          Then too please don't. There is no single metric to intelligence. So
+          then why should you prepare for IIT? The answer is simple. Are you
+          interested towards scientific termperament. Are you interested in
+          lerning the mechanisms of things? Then go ahead. And remember the most
+          important thing is to remember that it does not decide your future. In
+          fact Engineering is one of the most versatile filed in the world. You
+          can almost always take a serperate path without much loss, though it
+          does take up yout time. One of the biggest flaws of aspirants is they
+          don't have a clear idea about what they want. They have no road map of
+          what they want to achieve. <b>Getting the best rank possible</b> is
+          not an answer to it. Instead of this I urge you to sit down and really
+          thinkg about a rank or a range of rank, that you want to achieve. Do
+          it honeslty, and with a lot of thought. If you are confused about the
+          rank, don't worry. First of all look for programs and then think about
+          your aspirations. Find what would be best fit for you. This will not
+          only help you for JEE but also help in your college life. This is
+          because college life is much more different, you are free to pursue a
+          lot of different things, things which you like and matter to you. For
+          our purpose let's say you want a rank in the top <b>1000</b>
+          <img src={Figure} class={MainStyles.figures}></img>
+          As you can see from the graphs. getting above <b>220</b> will ensure
+          that you get a rank below 1000. Remember this figure and plan how are
+          you going to achieve that. By thinking like it you have carfully
+          removed the burden of scoring 360 out of 360!. This means you{" "}
+          <b>don't</b> have to study everything. Just being good at some topics
+          is enough. Now start your prep with this score as your benchmark socre
+          and always try to score at least this score. If you are not able to
+          then decrease the benchmark but try to reach the score. If you are
+          able to score these many marks, good, increase the benchmark and focus
+          on that. The increment should be little like 10 or 15 at max.
         </p>
-        <p> Why do I say it's not that hard? Read to find out.</p>
         <p>
-          {" "}
-          Okay, so let's ask ourselves one question, what makes anything
-          difficult or rather what makes any 'entrance exam' difficult? The
-          foremost reason is the sheer fact not being able to clear it means
-          that you cannot get admitted to that college at any cost!. No amount
-          of money, political connections will help you. Thus making something
-          entirely merit based makes it 'hard'. Then comes the more visible form
-          the acceptance percentage.
-          <p></p>
-          So here comes the daunting figure. Out of approx <b>9,00,000</b>
-          candidates 'atmost' <b>13,000</b> are able to get in an IIT. For the
-          Academic Session 2019-2020, the total number of seats in IIT's was{" "}
-          <b>13583</b>. The acceptance rate comes out to be <b> 1.05% </b>!.
-          That is low, quite low as a matter of fact. To put that into
-          perspective MIT has an acceptance rate of <b>7.2%</b>, Harvad has{" "}
-          <b>5.8%</b>. The world's best have a higher acceptance rate than
-          IIT's!. That's got to mean something. But in all seriousness, this is
-          plain wrong.
+          Another important thing is resisting herd mentality. <b>Don't</b> fill
+          various forms of exams if you are not prepared or you are not serious
+          about them. Seriously it won't do anything good. Many students
+          aimlessly fill the forms of <b>KVPY</b>,<b>RMO</b> and many other
+          olympiads. Seriously, first check whether you are up to that level or
+          not. Though the trend suggests that majority of students under{" "}
+          <b> 1000</b> clear most of these examinations, this is not a hard and
+          fast rule. After all <b>JEE</b> is a lot different from these
+          examinations. One thing which you have to understant is that{" "}
+          <b>JEE</b> is <b>not</b> just about <b>Intelligence</b>. In fact it
+          checks your <b>perseverance</b> , <b>memoriaztion</b>,
+          <b>thought-process</b> and <b>confidence</b>. And yes, memoirzation
+          does help. This is because even though science and mathematics have
+          changed drastically over the past few years, but the syllabus hasn't.
+          We are still forces to learn things which don't make any sense. I
+          won't go into the depth but, yeah overall the syllabus is still pretty
+          primitive. But one has to bear it nevertheless.
+        </p>
+        <p>
+          Don't take it too Seriously. Seriously don't. I have gone through the
+          previous 20 year question papers and what I found was that there is no
+          gaurantee of paper. No matter how much you teachers shout{" "}
+          <b>Calculus </b> is the most important or that <b>Rotation</b> is
+          fundamentally the most challenging, there is no surity. So try your to
+          give your best in each topic and frame the concept in your words.
+          <a href="https://en.wikipedia.org/wiki/Richard_Feynman" className={MainStyles.links}><b>Richard Feynman</b></a> one of the smartest human being had developed a
+          technique called the feynman technique. It is “If you can’t explain it
+          simply, you don’t understand it well enough.” Try to implement it. I
+          would also suggest that don't give up on your hobbies,you like Anime,
+          watch it but with self restraint,like football, play atleast
+          twice/thricee a week. Don't give up on Extracurriculars, untill they
+          are seriously affecting your studies.
           <p>
             {" "}
-            One thing which we don't count is the number of serious applicants .
-            It is hard to define a serious candidate, because it is quite
-            subjective. For a guy who hates acads it may mean studying 1 to 2
-            hours a day, while for a studious guy it may mean studying 8 hours a
-            day. I strongly believe the number of serious candidates is not
-            equal to the number of people who clear JEE Mains, but we need a
-            figure So for our assumption, I will take that number as <b>
-              1
-            </b>{" "}
-            Lakh. I Now if we caculate the acceptance rate it comes out to be{" "}
-            <b>13.583%</b>. Okay the percentage rose, but it is still not that
-            low. Agreed, but look at the rise, I mean from a mere 1 percent the
-            number rose to 10 percent. I need to clarify a few things,the most
-            important being the acceptance percentage calculated is only for
-            IIT's and not other public institutions which take students through
-            JEE and as to why the 1 Lakh figure? I have numbers in my defense.
-            The following number are for the Academic Year 2019-2020. The total
-            number of seats in IIT's - <b>13,583.</b>. The total number of seats
-            in NIT's - <b>21,133 .</b>
-            The total number of seats in IIIT's- <b>4,713.</b>
-            The total number of seats in these institutions comes out to be{" "}
-            <b>39,429</b>.I have mentioned these numbers because in general if
-            someone is serious about IIT's he will be able to get admitted into
-            these institutions. I know I am generalsing a bit, but need some
-            concrete figures.There will always be outliers.
+            At last I would just like to add that with a little planning and
+            chill attitude, you would find that that JEE is really not as hard
+            as it seems.{" "}
           </p>
-          Okay, so now comes the elephant in the room, the Branch/College
-          tradeoff. It is one of those things that is never discussed and looked
-          upon. For somepeople the reputation of college matters the most, while
-          for some it is the branch. There is not a straight answer to this
-          question. This a serious flaw of our Education system, some branches
-          like Computer Science are considered to be money making, where as
-          braches like civil and metallurgy are frowned upon. This is because
-          all we hear is about the average packages of the branches. This is
-          such a wrong metric, because it assumes that once you are done with
-          college you will only do a job, it does not take upon consideration
-          the biggest factor -'the type and skill required for the job'. The
-          specifics are never discussed Another thing is when a major section
-          just studies something because they have to it results in disaster. I
-          mean look at this{" "}
-          <a
-            className={MainStyles.a}
-            href="https://www.businesstoday.in/current/corporate/indian-engineers-tech-jobs-survey-80-per-cent-of-indian-engineers-not-fit-for-jobs-says-survey/story/330869.html"
-          >
-            {" "}
-            article{" "}
-          </a>
-          . It is in no motivational and maybe even makes on question if he/she
-          should even pursue engineering. Here's another mind blowing fact, in
-          many of the top institutions there is nothing such an average package
         </p>
-        <p>
-          {" "}
-          So the point that I am trying to make is the absolute nature of the
-          engineering stream that you get to study is what really makes it
-          difficult. What I mean by that is the student have no idea what they
-          are getting into.This is the harsh reality, most of the student have
-          no idea about the differnt engineering streams have to offer. Most
-          importantly a not so good rank takes away the power of choice about
-          what you study.
-        </p>
-        <p>
-          {" "}
-          Now I will present the real deal. First some context, I will be only
-          talking about three specific branches{" "}
-          <b>Computer Science,Electrical and Mechanical</b>. The reason that I
-          am only taking these branches it because these are the most sought
-          after, this certainly does not mean these are the best(it is again a
-          subjective question), it just means that someone would prefer to take
-          these branches rather than other branches. And what is Old? These are
-          the following IIT's-{" "}
-          <b>
-            {" "}
-            IIT Bombay,IIT Delhi,IIT Guwahati,IIT Kanpur,IIT Kharagphur,IIT
-            Madras and IIT Roorkee
-          </b>
-          The total figure reresents the total number of IIT's which is{" "}
-          <b>23</b>. I am little biased towards those because these IIT's
-          perform the best in International and National Rankings and therse are
-          old. Except for Guwahati and Roorke all had been established before
-          1970. Thus they have been here for the past 50 or so years.
-        </p>
-        <img
-          src={bdata}
-          style={{ margin: 10 }}
-          className={MainStyles.datagraph}
-        ></img>
-        <p>
-          {" "}
-          So if you want a seat in an Old IIT you need to have a rank within{" "}
-          <b>2549</b> and if your general the figure becomes <b>1275</b>. So
-          before anything ask yourself can you bring a rank that is well within
-          these figures.This is quite serious and nothing to be ashamed of.
-          Knowing the extent of your capabalities is useful because then you can
-          decide for yourself. Of course there is the branch/college trade
-          cutoff and the ranks do vary but the above figure are the 'safest'
-          figure meaning that a rank within those figure guarantees the desired
-          branch and college.
-        </p>
-
-        <p> </p>
       </article>
     </Layout>
   )

@@ -11,3 +11,46 @@
     justify-content: center;
 
 }
+
+.contact {
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: start;
+
+}
+
+.iconsfa {
+    height: 28px;
+    width: 30px;
+    margin: 10px;
+    color: #4267B2;
+
+
+}
+
+.iconstw {
+    height: 30px;
+    width: 40px;
+    margin: 10px;
+    color: #1DA1F2;
+
+
+}
+
+.iconsin {
+    height: 32px;
+    width: 40px;
+    margin: 10px;
+    color: #0e76a8;
+}
+
+.cons {
+    text-decoration: none;
+    color: purple;
+}
+
+.con {
+    margin: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+}
