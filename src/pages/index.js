@@ -34,35 +34,33 @@ export default function Home() {
         If you are a JEE aspirant then there is one thing which you must have
         heard-<b>JEE</b> is not easy. It takes hours and hours of preparation
         and complete focus on only and only one thing - studying math and
-        science. Now before anything, I want to put against this mentality since
-        I was too a product of this train of thougts. I know what it does it
+        science. Now before anything,I want to put against this mentality since I was too a product of this train of thougts. I know what does it
         feel like to not get the desired rank in the coaching tests
         and the feeling you get when you are not able to understand
-        something but your friend or topper breeze through it. This
+        something but your friend or topper breeze through it.This
         article is a mix of both my experiences and somethings which can be
         beneficial to anyone. Moreover I am not going to bore you or write down
         the books which are must and stuff like that, I seriousy think it's
         waste of time.Books don't serve much purpose unless you actually know how to use them.
         Moreover there is a plethora of reference material available on internet anyways.
-        <p>
+        <p className={MainStyles.para}>
           The first thing which I feel that is wrong with aspirants is that the
-          aspirants don't consider or forget  why are they even preparing for IIT's.Is it
+          aspirants don't consider or forget  why are they even preparing for IIT's.&nbsp;Is it
           because once you pass out from IIT you are going to make loads and
-          loads of money, or Clearing IIT's is way to establish your intelligence?.
+          loads of money, or Clearing IIT's is way to establish your intelligence?
           In all honesty if these are your motivation for studying for JEE, get ready to be dissapointed.
-          Studying from IIT's does not gaurantee loads and loads and money, as a matter of fact no college can guarantee that,
+          Studying from IIT's does not guarantee loads and loads and money, as a matter of fact no college can guarantee that,
           and thinking that JEE is a correct metric of intelligence is plain wrong. No exam can measure that.Okay 
           then why should you prepare for IIT? The answer is simple. Are you
           interested towards scientific termperament? Are you interested in
-          lerning the mechanisms of things?Do you want to learn from the best proffesors and sit with the smartest in India?
-          Then go ahead. Don't study for the label of being an IITian.And remember the most important thing, it does not decide your future. 
+          lerning the mechanisms of things? Do you want to learn from the best proffesors and sit with the smartest in India?
+          Then go ahead. Don't study for the label of being an IITian.&nbsp;And remember the most important thing, it does not decide your future. 
           IIT's are just a platform to learn and grow as a human being. In
           fact Engineering is one of the most versatile field in the world. You
-          can almost always take a serperate path without much loss, though it
-          does take up your time.
-          You will find Engineering graduates in Consulting,in Finance Companies and what not.They are everywhere!.
+          can almost always take a serparate path without much loss, though it
+          does take up your time.&nbsp;You will find Engineering graduates in Consulting,in Finance Companies and what not.&nbsp;They are everywhere!.
           </p>
-          <p>
+          <p className={MainStyles.para}>
           So coming back to JEE,
           one of the biggest flaws of aspirants is they
           don't have a clear idea about what they want. They have no road map of
@@ -76,7 +74,7 @@ export default function Home() {
           because college life is much more different, you are free to pursue a
           lot of different things, things which you like and matter to you. 
           Now for our purpose let's say you want a rank in the top <b>1000</b>
-          <img src={Figure} class={MainStyles.figures}></img>
+          <img src="https://lh3.googleusercontent.com/1ANnNYBZk4Goju80mv1D-5w0Ah-yE2tUIG79fwgc0ZBvh9CNDUy51g2bHIu2rK5qGAFs-OkFq8ITyX0vi3rTNNUBEzRqyA2NztQCRoBE2yfgulF_shEu14_WgiNqO_CXgy5nYH5MTd6XM2aHfc5-dheRnGyHAXbmzVs7ix4OTgJ9-URpJQw6VOXdu0gfobDtXUNz1cTMIE7_2ZyKoWAWW6KGld5rrxQEIKMW-XyEgpeukStzc1yfD7GkPvbcyWxzzAfLJUP04l90YZNIfAOZQY1zm_1Qi6QjBCCVhfZUphGuTbB5qS1gwOpxMM0cQAaLgaoowlPgR2IQAMK0KHT_OhNdsoO0vzvSDQCmqtw6axBSLhTMo-Su8qxWrhcrRcdm9fjGBfdGmTo4fwrR91hK_q6Z2y8HxXTspNw0hhb4TDadKDqt6HexK5z4DxnnBlmUFbtlULQQI6ILMlhsbOkuK4h-GrUA6_sDf37uEZrsXXrEgHeUYiAA9eVRN8hdR-Nb-5cU6iyuYbwaoXR9xmMzgBUo0u_VVHmPTIaCcerGtqCkcffjZQxaVZc_yG-X5ZAu1tY-OwZw5GdNqWLBT-m7ip9YbS1tYfFp8y9BLWb739A8loFy5SpxRjfV6lzXqxzeqeVRfbBvpNQOczKq5FD6SMFXM7UtGji2cXlCX7EsOw7H37xLr8s2Ztyy_El8kQ=w566-h230-no?authuser=0" class={MainStyles.figures}></img>
           As you can see from the graphs. getting above <b>220</b> will ensure
           that you get a rank below 1000. Remember this figure and plan how are
           you going to achieve that. By thinking like this you have carefully
@@ -88,40 +86,40 @@ export default function Home() {
           able to score these many marks, good, increase the benchmark and focus
           on that. The increment should be little like 10 or 15 at max.
         </p>
-        <p>
+        <p className={MainStyles.para}>
           Another important thing is resisting herd mentality. <b>Don't</b> fill
           various forms of exams if you are not prepared or you are not serious
           about them. Seriously it won't do anything good. Many students
-          aimlessly fill the forms of <b>KVPY</b>,<b>RMO</b> and many other
+          aimlessly fill the forms of <b><a className={MainStyles.exams}href="http://www.kvpy.iisc.ernet.in/main/index.htm">KVPY</a></b>,<b><a className={MainStyles.exams} href="https://secure.hbcse.tifr.res.in/rmo/"> RMO</a></b> and many other
           olympiads. Seriously, first check whether you are up to that level or
           not. Though the trend suggests that majority of students under{" "}
           <b> 1000</b> clear most of these examinations, this is not a hard and
           fast rule. After all <b>JEE</b> is a lot different from these
           examinations. One thing which you have to understant is that{" "}
-          <b>JEE</b> is <b>not</b> just about <b>Intelligence</b>. In fact it
-          checks your <b>perseverance</b> , <b>memoriaztion</b>,
-          <b>thought-process</b> and <b>confidence</b>. And yes, memoirzation
+          <b>JEE</b> is <b> not </b>just about<b> Intelligence </b>. In fact it
+          checks your<b> perseverance</b>,<b> memoriaztion</b>,
+          <b> thought-process</b> and<b> confidence</b>. And yes, memoriaztion
           does help. This is because even though science and mathematics have
           changed drastically over the past few years, but the syllabus hasn't.
-          We are still forces to learn things which don't make any sense. I
+          We are still forced to learn things which are quite old and really don't have much relevance and the way it is taught 
+          just kills any motivation that one has. I
           won't go into the depth but, yeah overall the syllabus is still pretty
           primitive. But one has to bear it nevertheless.
         </p>
-        <p>
+        <p className={MainStyles.para}>
           Don't take it too Seriously. Seriously don't. I have gone through the
           previous 20 year question papers and what I found was that there is no
-          gaurantee of paper. No matter how much you teachers shout{" "}
+          guarantee of paper. No matter how much you teachers shout{" "}
           <b>Calculus </b> is the most important or that <b>Rotation</b> is
-          fundamentally the most challenging, there is no surity. So try your to
-          give your best in each topic and frame the concept in your words.
-          <a href="https://en.wikipedia.org/wiki/Richard_Feynman" target="_blank" className={MainStyles.links}><b>Richard Feynman</b></a> one of the smartest human being had developed a
+          fundamentally the most challenging, there is no surety. So try to
+          give your best in each topic and frame the concept in your words.<a href="https://en.wikipedia.org/wiki/Richard_Feynman" target="_blank" className={MainStyles.links}><b> Richard Feynman </b></a> one of the smartest human being had developed a
           technique called the feynman technique. It is “If you can’t explain it
           simply, you don’t understand it well enough.” Try to implement it. I
           would also suggest that don't give up on your hobbies,you like Anime,
           watch it but with self restraint,like football, play atleast
           twice/thricee a week. Don't give up on Extracurriculars, untill they
           are seriously affecting your studies.
-          <p>
+          <p className={MainStyles.para}>
             {" "}
             At last I would just like to add that with a little planning and
             chill attitude, you would find that that JEE is really not as hard

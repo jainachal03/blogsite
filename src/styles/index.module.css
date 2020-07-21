@@ -127,3 +127,10 @@ html {
 .links{
     text-decoration:none;
 }
+.para{
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.exams{
+    text-decoration:none;
+}
