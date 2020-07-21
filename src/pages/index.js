@@ -36,49 +36,52 @@ export default function Home() {
         and complete focus on only and only one thing - studying math and
         science. Now before anything, I want to put against this mentality since
         I was too a product of this train of thougts. I know what it does it
-        feel like to continuosly not get the desired rank in the coaching tests
-        and the feeling when you get when you are not able to understand
-        something but your friend or <b>topper</b> breeze through it. This
+        feel like to not get the desired rank in the coaching tests
+        and the feeling you get when you are not able to understand
+        something but your friend or topper breeze through it. This
         article is a mix of both my experiences and somethings which can be
-        beneficial to anyone. Moreover I am not going too bore you or write down
+        beneficial to anyone. Moreover I am not going to bore you or write down
         the books which are must and stuff like that, I seriousy think it's
-        waste of time.
-        On a more serious note, the number of students who fill JEE Mains form is over 9 Lakh.
-        The number of seats in all the IIT's combined is less than 14,000.Let that sink.
-    
-        <p> </p>
+        waste of time.Books don't serve much purpose unless you actually know how to use them.
+        Moreover there is a plethora of reference material available on internet anyways.
         <p>
           The first thing which I feel that is wrong with aspirants is that the
-          aspirants forget why are they even preparing for IIT's. If it is
-          because that once you pass out from IIT you are gonna make loads and
-          loads of money, please don't. Seriously don't, it is just wrong. If
-          you think that IIT's mean you mean establishing your
-          intelligence.Please don't. You don't need to slog day in and day out.
-          Then too please don't. There is no single metric to intelligence. So
+          aspirants don't consider or forget  why are they even preparing for IIT's.Is it
+          because once you pass out from IIT you are going to make loads and
+          loads of money, or Clearing IIT's is way to establish your intelligence?.
+          In all honesty if these are your motivation for studying for JEE, get ready to be dissapointed.
+          Studying from IIT's does not gaurantee loads and loads and money, as a matter of fact no college can guarantee that,
+          and thinking that JEE is a correct metric of intelligence is plain wrong. No exam can measure that.Okay 
           then why should you prepare for IIT? The answer is simple. Are you
-          interested towards scientific termperament. Are you interested in
-          lerning the mechanisms of things? Then go ahead. And remember the most
-          important thing is to remember that it does not decide your future. In
-          fact Engineering is one of the most versatile filed in the world. You
+          interested towards scientific termperament? Are you interested in
+          lerning the mechanisms of things?Do you want to learn from the best proffesors and sit with the smartest in India?
+          Then go ahead. Don't study for the label of being an IITian.And remember the most important thing, it does not decide your future. 
+          IIT's are just a platform to learn and grow as a human being. In
+          fact Engineering is one of the most versatile field in the world. You
           can almost always take a serperate path without much loss, though it
-          does take up yout time. One of the biggest flaws of aspirants is they
+          does take up your time.
+          You will find Engineering graduates in Consulting,in Finance Companies and what not.They are everywhere!.
+          </p>
+          <p>
+          So coming back to JEE,
+          one of the biggest flaws of aspirants is they
           don't have a clear idea about what they want. They have no road map of
           what they want to achieve. <b>Getting the best rank possible</b> is
-          not an answer to it. Instead of this I urge you to sit down and really
-          thinkg about a rank or a range of rank, that you want to achieve. Do
-          it honeslty, and with a lot of thought. If you are confused about the
+          not an answer to it. Instead of this I think it is better to aim for a rank or a range of rank, that you want to achieve. It
+          should be done honeslty, with a lot of thought. If you are confused about the
           rank, don't worry. First of all look for programs and then think about
-          your aspirations. Find what would be best fit for you. This will not
+          your aspirations. Find what would be the best fit for you. If you are still confused then reach out to people who are currently studying in IIT's. 
+          Seriouly, talk to your seniors and get insights.  This will not
           only help you for JEE but also help in your college life. This is
           because college life is much more different, you are free to pursue a
-          lot of different things, things which you like and matter to you. For
-          our purpose let's say you want a rank in the top <b>1000</b>
+          lot of different things, things which you like and matter to you. 
+          Now for our purpose let's say you want a rank in the top <b>1000</b>
           <img src={Figure} class={MainStyles.figures}></img>
           As you can see from the graphs. getting above <b>220</b> will ensure
           that you get a rank below 1000. Remember this figure and plan how are
-          you going to achieve that. By thinking like it you have carfully
+          you going to achieve that. By thinking like this you have carefully
           removed the burden of scoring 360 out of 360!. This means you{" "}
-          <b>don't</b> have to study everything. Just being good at some topics
+          <b>don't</b> have to study everything. Just being through with some topics
           is enough. Now start your prep with this score as your benchmark socre
           and always try to score at least this score. If you are not able to
           then decrease the benchmark but try to reach the score. If you are
@@ -111,7 +114,7 @@ export default function Home() {
           <b>Calculus </b> is the most important or that <b>Rotation</b> is
           fundamentally the most challenging, there is no surity. So try your to
           give your best in each topic and frame the concept in your words.
-          <a href="https://en.wikipedia.org/wiki/Richard_Feynman" className={MainStyles.links}><b>Richard Feynman</b></a> one of the smartest human being had developed a
+          <a href="https://en.wikipedia.org/wiki/Richard_Feynman" target="_blank" className={MainStyles.links}><b>Richard Feynman</b></a> one of the smartest human being had developed a
           technique called the feynman technique. It is “If you can’t explain it
           simply, you don’t understand it well enough.” Try to implement it. I
           would also suggest that don't give up on your hobbies,you like Anime,

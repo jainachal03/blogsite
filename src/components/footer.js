@@ -12,17 +12,17 @@ const Footer = props => {
           <div className="con">
             <a
               className={FooterStyle.cons}
-              href="https://www.facebook.com/profile.php?id=100009157051064"
+              href="https://www.facebook.com/profile.php?id=100009157051064" target="_blank"
             >
               <GrFacebook className={FooterStyle.iconsfa}></GrFacebook>
             </a>
-            <a href="https://mobile.twitter.com/AchalJa95935761">
+            <a href="https://mobile.twitter.com/AchalJa95935761" target="_blank">
               <FaTwitterSquare
                 className={FooterStyle.iconstw}
               ></FaTwitterSquare>
             </a>
 
-            <a href="https://www.linkedin.com/in/achal-jain-503638197/">
+            <a href="https://www.linkedin.com/in/achal-jain-503638197/" target="_blank">
               <FaLinkedin className={FooterStyle.iconsin}> </FaLinkedin>
             </a>
           </div>

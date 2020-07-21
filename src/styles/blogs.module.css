@@ -20,3 +20,18 @@
         visibility: visible;
     }
 }
+.links{
+    text-decoration:none;
+    color:purple;
+}
+.list{
+    list-style:none;
+    /* margin:auto; */
+    padding:40px;
+    text-align:center;
+}
+.para{
+    margin:auto;
+    padding:10px;
+    text-align:left;
+}

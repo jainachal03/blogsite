@@ -18,20 +18,24 @@ export default function Blogs() {
       )}
       {isMenuOpen ? <Click /> : null}
       <h1 className={Blog.coming}>More Blogs coming soon</h1>
-      <p>Meanwhile I highly suggest reading these blogs 
+      <p><h3>Meanwhile I highly suggest reading these blogs/articles </h3>
       </p>
-      <ul>
+      <ul className={Blog.list}>
       <li>
-      <a href="http://debarghyadas.com/writes/hacking-into-the-indian-education-system/#:~:text=Originally%20published%20on%20Quora%20garnering,the%20frontpage%20of%20Hacker%20News.">
+      <a target="_blank" className={Blog.links} href="http://debarghyadas.com/writes/hacking-into-the-indian-education-system/#:~:text=Originally%20published%20on%20Quora%20garnering,the%20frontpage%20of%20Hacker%20News.">
       
-      Hacking into Indian Education System</a>
+      <h2>Hacking into Indian Education System</h2></a>
+      <p className={Blog.para}>This is an eye opening article. I have always thought that there is something fishy with the board results, this article just confirms that.
+         The author gives a very detailed desciption and a lot of evidence. Do read this. 
+       </p>
       
       </li>
       <li>
-      <a href="https://www.quora.com/Does-attending-an-Ivy-League-school-really-matter">
-      This answer is about IVY League schools but the the arguments are valid for anyone who is in conondrum, specifically
-      regarding the college-branch cutoff. Read it to find out.
-      </a>
+      
+      <a target="_blank" className={Blog.links} href="https://www.quora.com/Does-attending-an-Ivy-League-school-really-matter"> <h2>Does attending an IVY League school really matter?</h2></a> 
+      <p className={Blog.para}>This answer is about IVY League schools but the the arguments are valid for anyone who is in conondrum, specifically
+      regarding the college-branch cutoff. Read it to find out.</p>
+      
       </li>
       </ul>
     </Layout>
