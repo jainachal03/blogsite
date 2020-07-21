@@ -29,7 +29,7 @@ export default function Home() {
         </h1>
       </div>
       <h3 className={MainStyles.subheading}> BY ACHAL JAIN</h3>
-      <img src={Image} className={MainStyles.image}></img>
+      <img src="https://lh3.googleusercontent.com/z1ucg7zetaHJiKqbgfdoYxG_zXJsgWQtxNJZ_A81TWy51FvwLumL5s3dIYzTwgkNXqH2MbWU3PXnVgdZUwcwXIy_31eKbCb-WP7Ii6CyO-yK_Vex9pFz_6wP6RgqBJHkfdvW0u-Z20Fm0JfVDttXx6MlJlwDGx_7vVjxqMaNBIduazNNyWZThODKBlNJNiRf0rTuxG9MZyfDJldhwk5SPBS2VTyvJsWOSqiS9S1uSeO1gC5GTuOjsTxk-2N0Nevlk2OMIY6MvPTxd4_GzzJF6NFBAciDHzxo1lQeTj0tzGiw-2RpNwpZudq4CdHjHtpE4pQWIDYmX88v_3lLmC40hfuBdCzOD-HorMQ6HHAKuO843NqMkwITuSQpaFvX-Iz0fBINAKVjIsdUr_44WtwqdO_SiMtGmXyxwBf0NAFx2oyMX-CnrdzjtdoLZudV6htvy7aoFDiDZI0UdDpofa0iNwRmG9GA7ECp9sAd9SsL5ZFVXYcZqIhpNJ91pchxd3e5mSGc0pVSdIlf94WfJqZ5Do_Rduxo_i86_CgyeFUu5WRjKzQp7o2bYQMmdCv1IgD4pgchcbPAit6S2bqzYN0Wq7K4ukyhjt9DRrTNWhNf-ThMrEZq_mYHtdem08NztODUzK2STLn5iHGxwdOOZwE-iXqcDw_UzwDprahtaASo9LJdEbQkeLXbcLp3Xzdleg=w1199-h583-no?authuser=0" className={MainStyles.image}></img>
       <article className={MainStyles.article}>
         If you are a JEE aspirant then there is one thing which you must have
         heard-<b>JEE</b> is not easy. It takes hours and hours of preparation
