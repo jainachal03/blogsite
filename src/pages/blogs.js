@@ -61,7 +61,7 @@ export default function Blogs() {
             <h2>Get Rid of Herd Mentality</h2>
           </a>
           <p className={Blog.para}>
-            This article is a bit old, but is still valid.
+            This article appeared in The Hindu, and is from 2011, but whatever that is written in it still applies.
           </p>
         </li>
       </ul>
