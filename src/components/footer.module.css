@@ -13,44 +13,48 @@
 }
 
 .contact {
-    display: flex;
-    /* justify-content: space-between; */
-    justify-content: start;
+    list-style:none;
+     /* justify-content: center; */
 
 }
 
 .iconsfa {
-    height: 28px;
-    width: 30px;
+    height: 34px;
+    width: 46px;
     margin: 10px;
     color: #4267B2;
+    padding-top:10px;
 
 
 }
 
 .iconstw {
-    height: 30px;
-    width: 40px;
+    height: 34px;
+    width: 46px;
     margin: 10px;
     color: #1DA1F2;
+    padding-top:10px;
+    
 
 
 }
 
 .iconsin {
-    height: 32px;
-    width: 40px;
-    margin: 10px;
+    height: 34px;
+    width: 46px;
+    margin:10px;
+    padding-top:10px;
+
     color: #0e76a8;
 }
 
 .cons {
     text-decoration: none;
     color: purple;
+
 }
 
 .con {
     margin: 10px;
-    box-sizing: border-box;
-    padding: 10px;
+    float:left;
 }

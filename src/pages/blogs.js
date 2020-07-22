@@ -18,25 +18,52 @@ export default function Blogs() {
       )}
       {isMenuOpen ? <Click /> : null}
       <h1 className={Blog.coming}>More Blogs coming soon</h1>
-      <p><h3>Meanwhile I highly suggest reading these blogs/articles </h3>
+      <p>
+        <h3>Meanwhile I highly suggest reading these blogs/articles </h3>
       </p>
       <ul className={Blog.list}>
-      <li>
-      <a target="_blank" className={Blog.links} href="http://debarghyadas.com/writes/hacking-into-the-indian-education-system/#:~:text=Originally%20published%20on%20Quora%20garnering,the%20frontpage%20of%20Hacker%20News.">
-      
-      <h2>Hacking into Indian Education System</h2></a>
-      <p className={Blog.para}>This is an eye opening article. I have always thought that there is something fishy with the board results, this article just confirms that.
-         The author gives a very detailed desciption and a lot of evidence. Do read this. 
-       </p>
-      
-      </li>
-      <li>
-      
-      <a target="_blank" className={Blog.links} href="https://www.quora.com/Does-attending-an-Ivy-League-school-really-matter"> <h2>Does attending an IVY League school really matter?</h2></a> 
-      <p className={Blog.para}>This answer is about IVY League schools but the the arguments are valid for anyone who is in conondrum, specifically
-      regarding the college-branch cutoff. Read it to find out.</p>
-      
-      </li>
+        <li>
+          <a
+            target="_blank"
+            className={Blog.links}
+            href="http://debarghyadas.com/writes/hacking-into-the-indian-education-system/#:~:text=Originally%20published%20on%20Quora%20garnering,the%20frontpage%20of%20Hacker%20News."
+          >
+            <h2>Hacking into Indian Education System</h2>
+          </a>
+          <p className={Blog.para}>
+            This is an eye opening article. I have always thought that there is
+            something fishy with the board results, this article just confirms
+            that. The author gives a very detailed desciption and a lot of
+            evidence. Do read this.
+          </p>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            className={Blog.links}
+            href="https://www.quora.com/Does-attending-an-Ivy-League-school-really-matter"
+          >
+            {" "}
+            <h2>Does attending an IVY League school really matter?</h2>
+          </a>
+          <p className={Blog.para}>
+            This answer is about IVY League schools but the the arguments are
+            valid for anyone who is in conondrum, specifically regarding the
+            college-branch cutoff. Read it to find out.
+          </p>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            className={Blog.links}
+            href="https://www.thehindu.com/features/education/issues/get-rid-of-herd-mentality/article2376696.ece"
+          >
+            <h2>Get Rid of Herd Mentality</h2>
+          </a>
+          <p className={Blog.para}>
+            This article is a bit old, but is still valid.
+          </p>
+        </li>
       </ul>
     </Layout>
   )
