@@ -12,12 +12,12 @@ export default function About() {
   }
   return (
     <Layout>
-      {isMenuOpen ? (
+      {/* {isMenuOpen ? (
         <GrClose onClick={handleMenu} className={aboutme.bars} />
       ) : (
         <FaBars onClick={handleMenu} className={aboutme.bars} />
-      )}
-      {isMenuOpen ? <Click /> : null}
+      )} */}
+      {/* {isMenuOpen ? <Click /> : null} */}
       <div className={aboutme.container}>
         <h1 className={aboutme.whoami}> Hola!</h1>
         <img
@@ -25,8 +25,8 @@ export default function About() {
           className={aboutme.minephoto}
         ></img>
 
-        <h2 className={aboutme.second}> So who am I?</h2>
-        <p>
+        <h2 className={aboutme.second}>About me</h2>
+        <p className={aboutme.para}>
           {" "}
           I am a sophomore(second year student) at{" "}
           <a
@@ -41,7 +41,7 @@ export default function About() {
           selection related issues etc. I love playing with Data and writing
           code . I am also a Machine Learning Enthusiast.{" "}
         </p>
-        <p>Feel free to connect with me.</p>
+        <p className={aboutme.end}>Feel free to contact me.</p>
       </div>
     </Layout>
   )

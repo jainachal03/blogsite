@@ -11,12 +11,12 @@ export default function Blogs() {
   }
   return (
     <Layout>
-      {isMenuOpen ? (
+      {/* {isMenuOpen ? (
         <GrClose onClick={handleMenu} className={Blog.bars} />
       ) : (
         <FaBars onClick={handleMenu} className={Blog.bars} />
       )}
-      {isMenuOpen ? <Click /> : null}
+      {isMenuOpen ? <Click /> : null} */}
       <h1 className={Blog.coming}>More Blogs coming soon</h1>
       <p>
         <h3>Meanwhile I highly suggest reading these blogs/articles </h3>
@@ -61,7 +61,8 @@ export default function Blogs() {
             <h2>Get Rid of Herd Mentality</h2>
           </a>
           <p className={Blog.para}>
-            This article appeared in The Hindu, and is from 2011, but whatever that is written in it still applies.
+            This article appeared in The Hindu, and is from 2011, but whatever
+            that is written in it still applies.
           </p>
         </li>
       </ul>

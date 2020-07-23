@@ -17,12 +17,12 @@ export default function Home() {
   }
   return (
     <Layout>
-      {isMenuOpen ? (
+      {/* {isMenuOpen ? (
         <GrClose onClick={handleMenu} className={MainStyles.bars} />
       ) : (
         <FaBars onClick={handleMenu} className={MainStyles.bars} />
       )}
-      {isMenuOpen ? <Click /> : null}
+      {isMenuOpen ? <Click /> : null} */}
       <div className={MainStyles.container}>
         <h1 className={MainStyles.heading}>
           Why JEE is not as hard as it seems
