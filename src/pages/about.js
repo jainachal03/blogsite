@@ -1,10 +1,6 @@
 import React, { useState } from "react"
 import Layout from "../components/Layout"
 import aboutme from "../styles/aboutme.module.css"
-import minephoto from "../assets/linkedinprofile.jpg"
-import Click from "../components/click"
-import { FaBars, FaWindowClose } from "react-icons/fa"
-import { GrClose } from "react-icons/gr"
 export default function About() {
   const [isMenuOpen, setisMenuOpen] = useState(false)
   const handleMenu = () => {

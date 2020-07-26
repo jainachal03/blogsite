@@ -44,9 +44,14 @@ export default function Home() {
         topper breeze through it.This article is a mix of both my experiences
         and somethings which can be beneficial to anyone. Moreover I am not
         going to bore you or write down the books which are must and stuff like
-        that, I seriousy think it's waste of time.Books don't serve much purpose
-        unless you actually know how to use them. Moreover there is a plethora
-        of reference material available on internet anyways.
+        that, I seriousy think it's waste of time.&nbsp;
+        <span className={MainStyles.high}>
+          Science and Mathematics textbooks are not meant to be read like a
+          novel
+        </span>
+        , you have to be selective unless you really find that book interesting.
+        Moreover there is a plethora of reference material available on internet
+        anyways.
         <p className={MainStyles.para}>
           The first thing which I feel that is wrong with aspirants is that the
           aspirants don't consider or forget why are they even preparing for
@@ -57,18 +62,17 @@ export default function Home() {
           does not guarantee loads and loads and money, as a matter of fact no
           college can guarantee that, and thinking that JEE is a correct metric
           of intelligence is plain wrong. No exam can measure that.Okay then why
-          should you prepare for IIT? The answer is simple. Do you have a
-          scientific termperament? Do you want to have scientific termperament?
-          Are you interested in lerning the mechanisms of things? Do you want to
-          learn from the best proffesors and learn from the smartest in India?
-          Then go ahead. Don't study for the label of being an IITian.&nbsp;And
-          remember the most important thing, it does not decide your future.
-          IIT's are just a platform to learn and grow as a human being. In fact
-          Engineering is one of the most versatile field in the world. You can
-          almost always take a serparate path without much loss, though it does
-          take up your time.&nbsp;You will find Engineering graduates in
-          Consulting, in Finance Companies in Theater and what not.&nbsp;They
-          are everywhere!.
+          should you prepare for IIT? The answer is simple. Do you want to have
+          a scientific termperament? Are you interested in lerning the
+          mechanisms of things? Do you want to learn from the best proffesors
+          and learn from the smartest in India? Then go ahead. Don't study for
+          the label of being an IITian.&nbsp;And remember the most important
+          thing, it does not decide your future. IIT's are just a platform to
+          learn and grow as a human being. In fact Engineering is one of the
+          most versatile field in the world. You can almost always take a
+          serparate path without much loss, though it does take up your
+          time.&nbsp;You will find Engineering graduates in Consulting, in
+          Finance Companies in Theater and what not.&nbsp;They are everywhere!.
         </p>
         <p className={MainStyles.para}>
           So coming back to JEE, one of the biggest flaws of aspirants is they
@@ -79,12 +83,13 @@ export default function Home() {
           honeslty, with a lot of thought. If you are confused about the rank,
           don't worry. First of all look for programs and then think about your
           aspirations. Find what would be the best fit for you. If you are still
-          confused then reach out to people who are currently studying in IIT's.
-          Seriouly, talk to your seniors and get insights. This will not only
-          help you for JEE but also help in your college life. This is because
-          college life is much more different, you are free to pursue a lot of
-          different things, things which you like and matter to you. Now for our
-          purpose let's say you want a rank in the top <b>1000</b>
+          confused then reach out to people who are currently studying in those
+          particular institutes. Seriouly, talk to your seniors and get
+          insights. This will not only help you for JEE but also help in your
+          college life. This is because college life is much more different, you
+          are free to pursue a lot of different things, things which you like
+          and matter to you. Now for our purpose let's say you want a rank in
+          the top <b>1000</b>
           <img
             src="https://i.ibb.co/k60ScmC/Finalimage.png"
             class={MainStyles.figures}
@@ -92,14 +97,16 @@ export default function Home() {
           As you can see from the graphs. getting above <b>220</b> will ensure
           that you get a rank below 1000. Remember this figure and plan how are
           you going to achieve that. By thinking like this you have carefully
-          removed the burden of scoring 360 out of 360!. This means you{" "}
-          <b>don't</b> have to study everything. Just being through with some
-          topics is enough. Now start your prep with this score as your
-          benchmark socre and always try to score at least this score. If you
-          are not able to then decrease the benchmark but try to reach the
-          score. If you are able to score these many marks, good, increase the
-          benchmark and focus on that. The increment should be little like 10 or
-          15 at max.
+          removed the burden of scoring 360 out of 360!.{" "}
+          <span className={MainStyles.high}>
+            This means you <b>don't</b> have to study everything, just being
+            thorough with some topics is enough
+          </span>
+          . Now start your prep with this score as your benchmark socre and
+          always try to score at least this score. If you are not able to then
+          decrease the benchmark but try to reach the score. If you are able to
+          score these many marks, good, increase the benchmark and focus on
+          that. The increment should be little like 10 or 15 at max.
         </p>
         <p className={MainStyles.para}>
           Another important thing is resisting herd mentality. <b>Don't</b> fill
@@ -131,22 +138,25 @@ export default function Home() {
           examinations. One thing which you have to understant is that{" "}
           <b>JEE</b> is <b> not </b>just about<b> Intelligence </b>. In fact it
           checks your<b> perseverance</b>,<b> memoriaztion</b>,
-          <b> thought-process</b> and<b> confidence</b>. And yes, memoriaztion
-          does help. This is because even though science and mathematics have
-          changed drastically over the past few years, but the syllabus hasn't.
-          We are still forced to learn things which are quite old and really
-          don't have much relevance and the way it is taught just kills any
-          motivation that one has. I won't go into the depth but, yeah overall
-          the syllabus is still pretty primitive. But one has to bear it
-          nevertheless.
-        </p>
+          <strong> thought-process</strong>,<strong> confidence</strong> and yes,
+          memorization does help. This is because even though science and
+          mathematics have changed drastically over the past few years, but the
+          syllabus hasn't. We are still forced to learn things in a very unmotivated senese, 
+          we have to study because well, that is asked in the examination. Moreover many a times
+          the way the material is taught just kills any motivation that one might have.
+          </p>
+        
         <p className={MainStyles.para}>
-          Don't take it too Seriously. Seriously don't. I have gone through the
-          previous 20 year question papers and what I found was that there is no
-          guarantee of paper. No matter how much you teachers shout{" "}
-          <b>Calculus </b> is the most important or that <b>Rotation</b> is
-          fundamentally the most challenging, there is no surety. So try to give
-          your best in each topic and frame the concept in your words.
+          JEE is just an exam, honestly. Don't make it the soul purpose of your
+          life. Enjoy your preparation, make friends learn from them. Don't take
+          it too Seriously. I have gone through the previous 20 year question
+          papers and what I found was that there is no guarantee of paper. No
+          matter how much you teachers shout <b>Calculus </b> is the most
+          important or that <b>Rotation</b> is fundamentally the most
+          challenging, there is no surety that the questions from that topic would be too
+          dificult or too easy. So try to give your best in each topic and frame
+          the concept in your words. I would also suggest that try to make your own learning fun.
+          Think and observe, even if they are wrong, that's the way how science works.
           <a
             href="https://en.wikipedia.org/wiki/Richard_Feynman"
             target="_blank"
@@ -157,8 +167,8 @@ export default function Home() {
           one of the smartest human being had developed a technique called the
           feynman technique. It is “If you can’t explain it simply, you don’t
           understand it well enough.” Try to implement it. I would also suggest
-          that don't give up on your hobbies,you like Anime, watch it with self
-          restraint,like football, play atleast twice/thrice a week. Don't give
+          that don't give up on your hobbies, you like Anime, watch it with self
+          restraint, like football, play atleast twice/thrice a week. Don't give
           up on Extracurriculars, untill they are seriously affecting your
           studies.
           <p className={MainStyles.para}>

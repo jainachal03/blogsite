@@ -58,17 +58,17 @@ const Header = () => {
               </Link>
               <Link
                 className={HeaderStyle.fora}
-                to="/about"
-                activeClassName={HeaderStyle.activeLink}
-              >
-                ABOUT
-              </Link>
-              <Link
-                className={HeaderStyle.fora}
                 to="/blogs"
                 activeClassName={HeaderStyle.activeLink}
               >
                 BLOGS
+              </Link>
+              <Link
+                className={HeaderStyle.fora}
+                to="/about"
+                activeClassName={HeaderStyle.activeLink}
+              >
+                ABOUT
               </Link>
             </div>
           )}

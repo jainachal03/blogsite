@@ -9,12 +9,12 @@ const Footer = props => {
       <div className={FooterStyle.lst}>
         <p className={FooterStyle.p}>Achal Jain © 2019</p>
         <div className={FooterStyle.contact}>
-        <a href="https://www.facebook.com/profile.php?id=100009157051064"><FaFacebookSquare className={FooterStyle.iconsfa}></FaFacebookSquare></a>
-        <a href="https://twitter.com/AchalJa95935761"><FaTwitterSquare className={FooterStyle.iconstw}></FaTwitterSquare></a>
+        <a target="_blank" href="https://www.facebook.com/profile.php?id=100009157051064"><FaFacebookSquare className={FooterStyle.iconsfa}></FaFacebookSquare></a>
+        <a target ="_blank" href="https://twitter.com/AchalJa95935761"><FaTwitterSquare className={FooterStyle.iconstw}></FaTwitterSquare></a>
         
         
-        <a href="">
-        <FaLinkedin className={FooterStyle.iconsin}>
+        <a target="_blank" href="https://www.linkedin.com/in/achal-jain-503638197/">
+        <FaLinkedin  className={FooterStyle.iconsin}>
         </FaLinkedin>
         </a>
         

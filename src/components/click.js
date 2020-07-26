@@ -29,11 +29,11 @@ const Click = ({ closeHandle, active }) => (
       <Link to="/" className="header" activeClassName="headerActive">
         HOME
       </Link>
-      <Link to="/about" className="header" activeClassName="headerActive">
-        ABOUT
-      </Link>
       <Link to="/blogs" className="header" activeClassName="headerActive">
         BLOGS
+      </Link>
+      <Link to="/about" className="header" activeClassName="headerActive">
+        ABOUT
       </Link>
       <div
         style={{
@@ -41,17 +41,17 @@ const Click = ({ closeHandle, active }) => (
             borderTopWidth: 1,
             borderToppColor: 'grey',
             borderTopStyle: 'solid'
-            
+
           
         }}
       >
-        <a href="https://www.facebook.com/profile.php?id=100009157051064">
+        <a href="https://www.facebook.com/profile.php?id=100009157051064" target="_blank">
           <FaFacebookSquare className="iconsfa"></FaFacebookSquare>
         </a>
-        <a href="https://twitter.com/AchalJa95935761">
+        <a href="https://twitter.com/AchalJa95935761" target="_blank">
           <FaTwitterSquare className="iconstw"></FaTwitterSquare>
         </a>
-        <a href="">
+        <a href="https://www.linkedin.com/in/achal-jain-503638197/" target="_blank">
           <FaLinkedin className="iconsin"></FaLinkedin>
         </a>
       </div>
