@@ -49,7 +49,9 @@ export default function Blogs() {
           <p className={Blog.para}>
             This answer is about IVY League schools but the the arguments are
             valid for anyone who is in conondrum, specifically regarding the
-            college-branch cutoff. Read it to find out.
+            college-branch tradeoff. 
+            Read the specific answer written by <b>Kayee Tong</b>.That answer has lot of things
+            which are universal.
           </p>
         </li>
         <li>

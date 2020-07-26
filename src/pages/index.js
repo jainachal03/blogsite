@@ -37,7 +37,7 @@ export default function Home() {
         If you are a JEE aspirant then there is one thing which you must have
         heard-<b>JEE</b> is not easy. It takes hours and hours of preparation
         and complete focus on only and only one thing - studying math and
-        science. Now before anything,I want to put against this mentality since
+        science. Now before anything, I want to put against this mentality since
         I was too a product of this train of thougts. I know what does it feel
         like to not get the desired rank in the coaching tests and the feeling
         you get when you are not able to understand something but your friend or
@@ -103,8 +103,8 @@ export default function Home() {
             thorough with some topics is enough
           </span>
           . Now start your prep with this score as your benchmark socre and
-          always try to score at least this score. If you are not able to then
-          decrease the benchmark but try to reach the score. If you are able to
+          always try to score at least this much. If you are not able to, then
+          decrease the benchmark but try to come as close as possible to the benchmark. If you are able to
           score these many marks, good, increase the benchmark and focus on
           that. The increment should be little like 10 or 15 at max.
         </p>
@@ -116,6 +116,7 @@ export default function Home() {
           <b>
             <a
               className={MainStyles.exams}
+              target="-blank"
               href="http://www.kvpy.iisc.ernet.in/main/index.htm"
             >
               KVPY
@@ -125,6 +126,7 @@ export default function Home() {
           <b>
             <a
               className={MainStyles.exams}
+              target="-blank"
               href="https://secure.hbcse.tifr.res.in/rmo/"
             >
               {" "}
@@ -156,7 +158,7 @@ export default function Home() {
           challenging, there is no surety that the questions from that topic would be too
           dificult or too easy. So try to give your best in each topic and frame
           the concept in your words. I would also suggest that try to make your own learning fun.
-          Think and observe, even if they are wrong, that's the way how science works.
+          Think and observe, develop reasoning, that's the way how science works.
           <a
             href="https://en.wikipedia.org/wiki/Richard_Feynman"
             target="_blank"
