@@ -31,7 +31,7 @@ export default function Blogs() {
             <h2>Hacking into Indian Education System</h2>
           </a>
           <p className={Blog.para}>
-            THIS is an eye opening article. I have always thought that there is
+            This is an eye opening article. I have always thought that there is
             something fishy with the board results, this article just confirms
             that. The author gives a very detailed desciption and a lot of
             evidence. Do read this.
