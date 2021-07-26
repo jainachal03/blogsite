@@ -31,7 +31,7 @@ export default function Blogs() {
             <h2>Hacking into Indian Education System</h2>
           </a>
           <p className={Blog.para}>
-            This is an eye opening article. I have always thought that there is
+            THIS is an eye opening article. I have always thought that there is
             something fishy with the board results, this article just confirms
             that. The author gives a very detailed desciption and a lot of
             evidence. Do read this.
@@ -49,7 +49,7 @@ export default function Blogs() {
           <p className={Blog.para}>
             This answer is about IVY League schools but the the arguments are
             valid for anyone who is in conondrum, specifically regarding the
-            college-branch tradeoff. 
+            college-branch tradeoff.
             Read the specific answer written by <b>Kayee Tong</b>.That answer has lot of things
             which are universal.
           </p>
